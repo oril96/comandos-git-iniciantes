@@ -1,0 +1,32 @@
+*****ATENÇÃO*****
+ANTES DE EXECUTAR ESTES PASSOS CONFIGURE SUA CHAVE SSH: ARQUIVO DE EXPLICAÇAO "CONFIGURANDO SSH"
+
+configurando usuario
+git config --global user.name "oril"
+git config --global user.email "orivaldo.rodrigues@fatec.sp.gov.br"
+
+
+iniciando repositorio
+git init
+
+criando .gitignore
+touch .gitignore
+
+adicionando arquivo ao commit
+git add .gitignore
+
+definindo branch
+git branch -M main
+
+definindo origem (link) do repositorio
+git remote add origin git@github.com:orilr/agenda.git
+
+
+fazendo o commit
+git commit -m "Versão inicial do projeto"
+
+fazendo o push
+git push --set-upstream origin develop
+
+clonando um repositorio existente
+git clone git@github.com:orilr/comandos-git-iniciantes.git (url do repositorio que ja existe)

@@ -1,0 +1,10 @@
+1 - Clique no menu iniciar e escreva cmd.exe na barra de busca do windows.
+2 - Com a janela do Prompt aberta (tela preta), escreva: ssh-keygen e pressione enter em todos os passos de confirmação que for solicitado pois neste caso estamos fazendo uma configuração rapida, caso queira se aprofundar recomendo que busque forums na internet para se informar sobre a criação de chaves SSH.
+3 - Pronto, após confirmar todos os passos deve aparecer uma imagem com simbols estranhos e assim um novo diretório tera sido criado em seu computador chamado: .ssh
+4 - Você pode acessar esta pasta através do gerenciador de arquivos do windows, normalmente só é possivel ver seguindo este caminho: C:\Users\username\.ssh ! É possivel acessa-lo facilmente através da estrutura de diretorios ;)
+5 - Após encontrar a pasta .ssh dentro dela deve conter dois arquivos chamados id.rsa e id.rsa.pub.
+6 - Clique duas vezes sob o arquivo id.rsa.pub e escolha o programa "bloco de notas" não precisa deixar como ferramenta padrão para leitura deste arquivo.
+7 - Copie o conteudo do arquivo id.rsa.pub com muito cuidado para não pegar espaços desnecessários.
+8 - vá até a pagina do seu perfil no github e clique em settings > SSH and GPC Keys > New SSH Key e cole o conteudo copiado.
+9 - "Nota de atenção": Você deve instalar o github em seu computador caso ainda nao possua instalado, segue link: https://git-scm.com/download/
+10 - Recomendo sempre que ao começar usar o github primeiramente clone um repositorio mesmo que vazio da sua pagina no github para sua maquina através da linha do terminal CLi do VSCODE apenas para que possa configurar a comunicação da chave ssh da sua maquina com seu repositorio no git de maneira mais facil
