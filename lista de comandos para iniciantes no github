@@ -2,8 +2,8 @@
 ANTES DE EXECUTAR ESTES PASSOS CONFIGURE SUA CHAVE SSH: ARQUIVO DE EXPLICAÇAO "CONFIGURANDO SSH"
 
 configurando usuario
-git config --global user.name "oril"
-git config --global user.email "orivaldo.rodrigues@fatec.sp.gov.br"
+git config --global user.name "ori-test"
+git config --global user.email "seuemail@gmail.com"
 
 
 iniciando repositorio
